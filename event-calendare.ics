@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventX//Virtual Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en-us:What’s your Agent's GPA? A Framework for Evaluating AI Agent Reliability
+UID:3f898584-2615-425c-a053-6e7f4fce0166
+CLASS:PUBLIC
+DTSTAMP:20260128T162559Z
+DTSTART:20260128T121000
+DTEND:20260128T131000
+URL:https://streamyard.com/watch/48K9GzkMQq5M
+DESCRIPTION:Link to webinar: https://streamyard.com/watch/48K9GzkMQq5M Prerequisite: https://docs.google.com/document/d/1Wlt14JWnaCvLmhnEy4sl9uE-WGvMFjF2GK6cU-Y67hE/edit?tab=t.0#bookmark=id.2fmter80r5ta Description: Josh Reini - Developer Advocate | SnowflakePrerequisites: https://docs.google.com/document/d/1Wlt14JWnaCvLmhnEy4sl9uE-WGvMFjF2GK6cU-Y67hE/edit?tab=t.0#bookmark=id.2fmter80r5ta Trustworthy agents operate with their goal, plan and actions aligned. An agent’s answer may appear successful, but the path it took to get there may not be. Was the goal achieved efficiently? Did the plan make sense? Were the right tools used? Did the agent follow through? Without visibility into these steps, teams risk deploying agents that look reliable but create hidden costs in production. Inaccuracies can waste compute, inflate latency and lead to the wrong business decisions, all of which erode trust at scale.Today’s eval methods can fall short. They often judge only the final answer, missing the agent’s decision-making process, which overlooks end-to-end performance. Ground-truth data sets with expected agent outcomes and trajectories annotated by experts are valuable but expensive to build and maintain. And outcome-focused benchmarks confirm whether an agent succeeded, but provide little insight into why it failed or how to fix it.This hands-on workshop walks through how to measure Agent GPA (Goal-Plan-Action) framework, available in the open source TruLens library. Attendees will code along with the speaker, learning to evaluate agents across goals, plans and actions, and surfacing internal errors such as hallucinations, poor tool use or missed plan steps.By the end, attendees will have used the GPA framework to identify common agent failures, learned how to improve their agent and made it ready for production. Attendees should come prepared to code along and have a Python environment ready.
+LOCATION:
+PRIORITY:5
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-ALLOWEXTERNCHECK:TRUE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
